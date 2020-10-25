@@ -1,0 +1,43 @@
+.gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,1,1,1) 0%, rgba(255,187,0,1) 87%);
+}
+
+.border-none {
+    border: none;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.color {
+    background-color: #AEB7BF;
+}
+
+.img-stat {
+    max-height: 170px;
+    max-width: 250px;
+}
+
+.margin {
+    margin: auto;
+}
+
+.project-pic {
+    transition: all .8s;
+}
+
+.project-pic:hover {
+    transform: scale(1.23);
+}
+
+.icons {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.github {
+    max-height: 70px;
+    max-width: 70px;
+}
