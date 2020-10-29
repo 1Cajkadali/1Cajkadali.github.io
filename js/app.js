@@ -1,12 +1,8 @@
-$(document).ready(() => {
-    const $link = $('a');
-    const $github = $('.github');
+const gitContainer = document.querySelector('.git-container')
+const github = document.querySelectorAll('.github');
 
-    $link.on('hover', () => {
-        $github.animate({
-            backgroundColor: tomato;
-            color: green;
-        });
-    });
-
-  });
+gitContainer.addEventListener('hover', e => {
+    if (e.target === github) {
+        github.style.backgroundColor = 'tomato';
+    }
+});
