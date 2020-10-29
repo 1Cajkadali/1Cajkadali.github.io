@@ -1,3 +1,3 @@
 document.querySelector('.change-theme').addEventListener('click', () => {
-    document.body.style.backgroundColor = 'antiquewhite'
+    document.getElementById('contact').style.backgroundColor = 'antiquewhite'
 });
