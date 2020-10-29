@@ -1,5 +1,3 @@
-const li = document.querySelector('.list-group-item');
-
-li.addEventListener('click', () => {
-    li.classList.add('yellow-text') 
+document.querySelector('.change-theme').addEventListener('click', () => {
+    document.getElementsByClassName('list-group-item').style.color = 'yellow'
 });
