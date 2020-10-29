@@ -42,6 +42,9 @@
     max-width: 70px;
 }
 
-.yellow-text {
-    color: yellow;
+.change-self {
+    background-color: antiquewhite;
+    margin: 15px 500px;
+    text-align: center;
+    font-weight: bold;
 }
