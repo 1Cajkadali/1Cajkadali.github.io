@@ -1,11 +1,3 @@
-.gradient {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,1,1,1) 0%, rgba(255,187,0,1) 87%);
-}
-
-.just-test {
-    
-}
 
 .border-none {
     border: none;
@@ -46,9 +38,13 @@
     max-width: 70px;
 }
 
+.hide-button {
+    max-width: 320px;
+}
+
 .change-self {
     background-color: antiquewhite;
-    margin: 15px 500px;
+    margin: 15px auto;
     text-align: center;
     font-weight: bold;
 }
